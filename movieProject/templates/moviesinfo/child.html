@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'moviesinfo/base.html' %}
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    {% block child_block %}
+    <link rel="stylesheet" href="{%static "css/new.css" %}">
+    {% endblock %}
+  </head>
+  <body>
+    {% block body %}
+    {% endblock %}
+  </body>
+</html>
