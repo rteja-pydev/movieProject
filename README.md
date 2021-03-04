@@ -1,2 +1,2 @@
 # movieProject
-movie-app
+movie-web-app
